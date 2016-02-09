@@ -23,7 +23,10 @@ public class TestArray {
 		for (int i=0; i<dList.length; i++) {
 			//System.out.println(dList.getClass().getName());
 			
-			if(dList[i] != null) {
+			if(dList[i] == null) {
+				System.out.println(i + ": null");
+			}
+			else {
 				System.out.println(i + ": " + dList[i].name);
 			}
 
