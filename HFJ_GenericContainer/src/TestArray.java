@@ -2,15 +2,17 @@
 public class TestArray {
 	public static void main (String [] args) {
 		int [] numList = {1, 6, 3, 9, 2};
-		
-		int [] numList2 = new int[4];
-		System.out.println("numList2: " + numList2.length);
-		System.out.println();
-		
+
 		for (int i=0; i<numList.length; i++) {
 			System.out.println(i + ": " + numList[i]);
 		}
-		
+		System.out.println();
+
+		double [] numList2 = new double[4];
+		System.out.println("numList2: " + numList2.length);
+		for (int i=0; i<numList2.length; i++) {
+			System.out.println(i + ": " + numList2[i]);
+		}
 		System.out.println();
 		
 		Dog [] dList = new Dog[3];
